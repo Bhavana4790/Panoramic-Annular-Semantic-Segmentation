@@ -4,6 +4,7 @@ import os
 import importlib
 import types
 from PIL import Image
+Image.MAX_IMAGE_PIXELS = 1000000000 
 from argparse import ArgumentParser
 
 from torch.autograd import Variable
