@@ -5,7 +5,7 @@ import io
 import os
 
 def main():
-    st.title("Semantic Segmentation with Streamlit")
+    st.title("Panoramic Annular Semantic Segmentation")
 
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png"])
 
